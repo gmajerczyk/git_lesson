@@ -1,0 +1,896 @@
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ git config --global user.name "Gosia Majerczyk"
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ git config --global user.email "gmajerczyk@gmail.com"
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ git config --global color.ui "auto"
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ git config --global core.editor "'
+> git config --gloval core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
+> git config --global core.editor "'c:/program files/notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+> git config --list
+> git config --global user.name "Gosia Majerczyk"
+>
+> ^C
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ git config --list
+core.symlinks=true
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+core.editor="C:\\Program Files\\Notepad++\\notepad++.exe" -multiInst -notabbar -nosession -noPlugin
+user.name=Gosia Majerczyk
+user.email=gmajerczyk@gmail.com
+color.ui=auto
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ git config --list
+core.symlinks=true
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+core.editor="C:\\Program Files\\Notepad++\\notepad++.exe" -multiInst -notabbar -nosession -noPlugin
+user.name=Gosia Majerczyk
+user.email=gmajerczyk@gmail.com
+color.ui=auto
+core.editor='c:/program files/sublime text 3/sublime_text.exe' -w
+
+gmaje@Gosia-Spectre MINGW64 ~
+$ cd c:
+
+gmaje@Gosia-Spectre MINGW64 /c
+$ cd c:/_learn/git
+bash: cd: c:/_learn/git: No such file or directory
+
+gmaje@Gosia-Spectre MINGW64 /c
+$ cd c:/Code/git
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git
+$ cd git_lesson
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson
+$ ls
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson
+$ git init
+Initialized empty Git repository in C:/Code/git/git_lesson/.git/
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ ls -a
+./  ../  .git/
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git add README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit
+hint: Waiting for your editor to close the file...
+
+
+
+
+error: There was a problem with the editor ''c:/program files/sublime text 3/sublime_text.exe' -w'.
+Please supply the message using either -m or -F option.
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit
+hint: Waiting for your editor to close the file...
+[master (root-commit) 4f41f13] Initial commit for the git lesson1
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log
+commit 4f41f13c3a04a827f5f0bb753441c9b5bd44349d (HEAD -> master)
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 19:41:50 2019 -0600
+
+    Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ sublime text README.md
+bash: sublime: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ sublime README.md
+bash: sublime: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ sublime_text README.md
+bash: sublime_text: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log
+commit 4f41f13c3a04a827f5f0bb753441c9b5bd44349d (HEAD -> master)
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 19:41:50 2019 -0600
+
+    Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git --status
+unknown option: --status
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ notepad++ README.md
+bash: notepad++: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ ^C
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ sublime_text.exe README.md
+bash: sublime_text.exe: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ .w
+bash: .w: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ -w
+bash: -w: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl .
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl readme.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git add README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl readme.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git add readme.md -m "a third commit to the readme file"
+error: unknown switch `m'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch[=<patch-mode>]
+                          select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit readme.md -m "a third commit to the readme file"
+error: pathspec 'readme.md' did not match any file(s) known to git
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit README.md -m "a third commit to the readme file"
+[master 511a5ca] a third commit to the readme file
+ 1 file changed, 3 insertions(+)
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log
+commit 511a5ca73da8fdbad86fc08f06ec4fe25ccee90a (HEAD -> master)
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 20:04:04 2019 -0600
+
+    a third commit to the readme file
+
+commit 4f41f13c3a04a827f5f0bb753441c9b5bd44349d
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 19:41:50 2019 -0600
+
+    Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ Initial commit for the git lesson1
+bash: Initial: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ Initial commit for the git lesson1
+bash: Initial: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log
+commit 511a5ca73da8fdbad86fc08f06ec4fe25ccee90a (HEAD -> master)
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 20:04:04 2019 -0600
+
+    a third commit to the readme file
+
+commit 4f41f13c3a04a827f5f0bb753441c9b5bd44349d
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 19:41:50 2019 -0600
+
+    Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log --oneline
+511a5ca (HEAD -> master) a third commit to the readme file
+4f41f13 Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl readme.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ get status
+bash: get: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git add readme.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit
+On branch master
+Changes not staged for commit:
+        modified:   README.md
+
+no changes added to commit
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git add README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit
+[master b9d7dbe] thi is the 4th change to the readme file
+ 1 file changed, 3 insertions(+)
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log
+commit b9d7dbe5b4aae35a0cb3c0c4ee5d23530ff5b5a2 (HEAD -> master)
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 20:13:55 2019 -0600
+
+    thi is the 4th change to the readme file
+
+    Git is a version control syste, that lets us write notes to ourself.
+    There notes (aka commits) can be multiple lines long.
+
+commit 511a5ca73da8fdbad86fc08f06ec4fe25ccee90a
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 20:04:04 2019 -0600
+
+    a third commit to the readme file
+
+commit 4f41f13c3a04a827f5f0bb753441c9b5bd44349d
+Author: Gosia Majerczyk <gmajerczyk@gmail.com>
+Date:   Mon Jul 15 19:41:50 2019 -0600
+
+    Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log --oneline
+b9d7dbe (HEAD -> master) thi is the 4th change to the readme file
+511a5ca a third commit to the readme file
+4f41f13 Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl readme.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff
+diff --git a/README.md b/README.md
+index a3ebacf..d46c7ff 100644
+--- a/README.md
++++ b/README.md
+@@ -5,4 +5,5 @@ This is a change to an existing file that git has already tracked.
+ this is the second change to the existing file tracked by git.
+
+ this is the thid change in this file.
+-
+\ No newline at end of file
++
++ new change number 5
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git add .
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit -m 'what is git'
+[master e6523c1] what is git
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl .
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git add .
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff --staged
+diff --git a/README.md b/README.md
+index d46c7ff..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -6,4 +6,7 @@ this is the second change to the existing file tracked by git.
+
+ this is the thid change in this file.
+
+- new change number 5
+\ No newline at end of file
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
++
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit -m 'i rememberd the change'
+[master 6bc0031] i rememberd the change
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff HEAD ~1
+fatal: ambiguous argument '~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff HEAD~1
+diff --git a/README.md b/README.md
+index d46c7ff..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -6,4 +6,7 @@ this is the second change to the existing file tracked by git.
+
+ this is the thid change in this file.
+
+- new change number 5
+\ No newline at end of file
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
++
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff HEAD~2
+diff --git a/README.md b/README.md
+index a3ebacf..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -5,4 +5,8 @@ This is a change to an existing file that git has already tracked.
+ this is the second change to the existing file tracked by git.
+
+ this is the thid change in this file.
++
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
+
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff HEAD~3
+diff --git a/README.md b/README.md
+index 29cbd4b..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -3,3 +3,10 @@ This repository contains the files used for a git lesson.
+
+ This is a change to an existing file that git has already tracked.
+ this is the second change to the existing file tracked by git.
++
++this is the thid change in this file.
++
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
++
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log --oneline
+6bc0031 (HEAD -> master) i rememberd the change
+e6523c1 what is git
+b9d7dbe thi is the 4th change to the readme file
+511a5ca a third commit to the readme file
+4f41f13 Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff HEAD~5
+fatal: ambiguous argument 'HEAD~5': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff HEAD~4
+diff --git a/README.md b/README.md
+index f58bc06..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,12 @@
++
+ This repository contains the files used for a git lesson.
+
++This is a change to an existing file that git has already tracked.
++this is the second change to the existing file tracked by git.
++
++this is the thid change in this file.
++
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
++
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log --oneline
+6bc0031 (HEAD -> master) i rememberd the change
+e6523c1 what is git
+b9d7dbe thi is the 4th change to the readme file
+511a5ca a third commit to the readme file
+4f41f13 Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ ^C
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff 511a5ca
+
+bash: it: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ it 511a5ca
+bash: it: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff it 511a5ca
+fatal: ambiguous argument 'it': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff 511a5ca
+diff --git a/README.md b/README.md
+index 29cbd4b..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -3,3 +3,10 @@ This repository contains the files used for a git lesson.
+
+ This is a change to an existing file that git has already tracked.
+ this is the second change to the existing file tracked by git.
++
++this is the thid change in this file.
++
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
++
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff -HEAD~1
+error: invalid option: -HEAD~1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff HEAD~1
+diff --git a/README.md b/README.md
+index d46c7ff..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -6,4 +6,7 @@ this is the second change to the existing file tracked by git.
+
+ this is the thid change in this file.
+
+- new change number 5
+\ No newline at end of file
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
++
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git checkout HEAD~1 readme.md
+error: pathspec 'readme.md' did not match any file(s) known to git
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git checkout HEAD~1 README.md
+Updated 1 path from f6e3515
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl .
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ subl readme.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff --staged
+diff --git a/README.md b/README.md
+index bfd027c..d46c7ff 100644
+--- a/README.md
++++ b/README.md
+@@ -6,7 +6,4 @@ this is the second change to the existing file tracked by git.
+
+ this is the thid change in this file.
+
+- new change number 5
+-
+- this is a commit that i am not aware of, or one that i have forgotten about.
+-
+\ No newline at end of file
++ new change number 5
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ get status
+bash: get: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ fit commit -m 'delete line i forgot about'
+bash: fit: command not found
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git commit -m 'delete line i forgot about'
+[master fe6e5d8] delete line i forgot about
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log --oneline
+fe6e5d8 (HEAD -> master) delete line i forgot about
+6bc0031 i rememberd the change
+e6523c1 what is git
+b9d7dbe thi is the 4th change to the readme file
+511a5ca a third commit to the readme file
+4f41f13 Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git checkout 4f41f13
+Note: checking out '4f41f13'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 4f41f13 Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson ((4f41f13...))
+$ git checkout master
+Previous HEAD position was 4f41f13 Initial commit for the git lesson1
+Switched to branch 'master'
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ ls
+README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ rm readme.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git checkout master README.md
+Updated 1 path from f6e3515
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ ls
+README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git log --oneline
+fe6e5d8 (HEAD -> master) delete line i forgot about
+6bc0031 i rememberd the change
+e6523c1 what is git
+b9d7dbe thi is the 4th change to the readme file
+511a5ca a third commit to the readme file
+4f41f13 Initial commit for the git lesson1
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git checkout HEAD~1 README.md
+Updated 1 path from 6f1843a
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git diff --staged
+diff --git a/README.md b/README.md
+index d46c7ff..bfd027c 100644
+--- a/README.md
++++ b/README.md
+@@ -6,4 +6,7 @@ this is the second change to the existing file tracked by git.
+
+ this is the thid change in this file.
+
+- new change number 5
+\ No newline at end of file
++ new change number 5
++
++ this is a commit that i am not aware of, or one that i have forgotten about.
++
+\ No newline at end of file
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git reset HEAD README.md
+Unstaged changes after reset:
+M       README.md
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gmaje@Gosia-Spectre MINGW64 /c/Code/git/git_lesson (master)
+$
